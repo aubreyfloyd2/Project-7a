@@ -5,7 +5,7 @@
 #              of that value.
 
 def square_list(nums):
-    """Returns the square of each value in list"""
+    """Returns the square of each value in list."""
     for num in range(len(nums)):
         nums[num] = nums[num] * nums[num]
 
